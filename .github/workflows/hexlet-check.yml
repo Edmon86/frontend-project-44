@@ -22,44 +22,4 @@ jobs:
         uses: hexlet/project-action@release
         with:
           hexlet-id: ${{ secrets.HEXLET_ID }}
-# Шаг для установки Node.js (если это проект на JavaScript)
 
-      - name: Set up Node.js
-
-        uses: actions/setup-node@v3
-
-        with:
-
-          node-version: '14'
-
-
-      # Установка зависимостей
-
-      - name: Install dependencies
-
-        run: npm install
-
-
-      # Запуск тестов с покрытием
-
-      - name: Run tests with coverage
-
-        run: npm run test -- --coverage
-
-
-      # Скачать Code Climate Test Reporter
-
-      - name: Download Code Climate test reporter
-
-        run: |
-
-          curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
-
-          chmod +x ./cc-test-reporter
-
-
-      # Запустить команду перед билдом для Code Climate
-
-      - name: Before build (Code Climate)
-
-        run: ./cc-test-reporter before-build
