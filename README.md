@@ -6,3 +6,5 @@
 [Смотреть запись игры на asciinema](https://asciinema.org/a/YgC4mDM9jDuYPxgmnq4wE1E3z)
 ### Пример игры "Калькулятор" 
 [Смотреть запись игры на asciinema](https://asciinema.org/a/4dUTaMA964ACeo2KwFWL61kMF)
+### Пример игры "НОД"
+[Смотреть запись игры на asciinema](https://asciinema.org/a/Tj8oRwXNyqulSLa7S6gMgmka4)
