@@ -8,3 +8,5 @@
 [Смотреть запись игры на asciinema](https://asciinema.org/a/4dUTaMA964ACeo2KwFWL61kMF)
 ### Пример игры "НОД"
 [Смотреть запись игры на asciinema](https://asciinema.org/a/Tj8oRwXNyqulSLa7S6gMgmka4)
+### Пример игры "Арифметическая прогрессия"
+[Смотреть запись игры на asciinema](https://asciinema.org/a/vcH0493SNObTCVb0k2pet9NBq)
