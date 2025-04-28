@@ -10,3 +10,5 @@
 [Смотреть запись игры на asciinema](https://asciinema.org/a/Tj8oRwXNyqulSLa7S6gMgmka4)
 ### Пример игры "Арифметическая прогрессия"
 [Смотреть запись игры на asciinema](https://asciinema.org/a/vcH0493SNObTCVb0k2pet9NBq)
+### Пример игры "Простое ли число?"
+[Смотреть запись игры на asciinema](https://asciinema.org/a/uJNyaOwgMzu4rz7quntZJEBTO)
