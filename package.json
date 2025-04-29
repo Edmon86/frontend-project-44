@@ -1,5 +1,5 @@
 {
-  "name": "@edmon86/brain-games",
+  "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
   "bin": {
@@ -14,7 +14,6 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage"
-
   },
   "repository": {
     "type": "git",
@@ -30,10 +29,11 @@
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@eslint/js": "^9.24.0",
-    "eslint": "^9.24.0",
+    "@eslint/js": "^9.25.1",
+    "eslint": "^9.25.1",
     "globals": "^16.0.0",
-    "jest": "^29.7.0"
+    "jest": "^29.7.0",
+    "typescript-eslint": "^8.31.1"
   },
   "jest": {
     "collectCoverage": true,
