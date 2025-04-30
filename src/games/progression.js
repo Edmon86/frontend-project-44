@@ -19,5 +19,3 @@ const getProgressionData = () => {
 };
 
 export default getProgressionData;
-
-

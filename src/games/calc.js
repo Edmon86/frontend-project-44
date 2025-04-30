@@ -1,4 +1,3 @@
-
 import getRandomNumber from '../random.js';
 import runGame from '../index.js';
 
@@ -25,4 +24,5 @@ const getQuestionAndAnswer = () => {
   return [`${num1} ${operator} ${num2}`, String(answer)];
 };
 
-export default () => runGame('What is the result of the expression?', getQuestionAndAnswer);
+export default () =>
+  runGame('What is the result of the expression?', getQuestionAndAnswer);

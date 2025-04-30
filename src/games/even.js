@@ -9,6 +9,7 @@ const getQuestionAndAnswer = () => {
   return [question, correctAnswer];
 };
 
-export const rules = 'Answer "yes" if the number is even, otherwise answer "no".';
+export const rules =
+  'Answer "yes" if the number is even, otherwise answer "no".';
 
 export default getQuestionAndAnswer;

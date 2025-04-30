@@ -1,6 +1,5 @@
 import getRandomNumber from '../random.js';
 
-
 const gcd = (a, b) => {
   while (b !== 0) {
     [a, b] = [b, a % b];
@@ -17,5 +16,3 @@ const getGcdData = () => {
 };
 
 export default getGcdData;
-
-

@@ -4,5 +4,3 @@ import getProgressionData from '../src/games/progression.js';
 
 const gameDescription = 'What number is missing in the progression?';
 runGame(gameDescription, getProgressionData);
-
-
