@@ -1,6 +1,6 @@
 const getRandomNumber = () => Math.floor(Math.random() * 100)
 
-const isEven = (num) => num % 2 === 0
+const isEven = num => num % 2 === 0
 
 const getQuestionAndAnswer = () => {
   const number = getRandomNumber()
