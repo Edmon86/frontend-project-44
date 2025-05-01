@@ -1,8 +1,8 @@
-import js from '@eslint/js';
-import globals from 'globals';
-import tseslint from 'typescript-eslint';
-import stylistic from '@stylistic/eslint-plugin';
-import { defineConfig } from 'eslint/config';
+import js from '@eslint/js'
+import globals from 'globals'
+import tseslint from 'typescript-eslint'
+import stylistic from '@stylistic/eslint-plugin'
+import { defineConfig } from 'eslint/config'
 
 export default defineConfig([
   {
@@ -17,7 +17,7 @@ export default defineConfig([
 
     rules: {
       // Стили
-      'stylistic/semi': ['error', 'always'],
+      'stylistic/semi': ['error', 'never'],
       'stylistic/quotes': ['error', 'single'],
       'stylistic/indent': ['error', 2],
       'stylistic/comma-dangle': ['error', 'always-multiline'],
@@ -37,4 +37,4 @@ export default defineConfig([
 
   // TypeScript
   ...tseslint.configs.recommended,
-]);
+])
