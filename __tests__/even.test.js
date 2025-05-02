@@ -1,9 +1,29 @@
-import isEven from '../src/games/even.js'
+import getQuestionAndAnswer from '../src/games/even.js';
 
-test('Четное число', () => {
-  expect(isEven(4)).toBe(true)
-})
+describe('getQuestionAndAnswer', () => {
+  test('возвращает корректный ответ для чётного числа', () => {
+    const originalMathRandom = Math.random;
+    Math.random = () => 0.4; // 0.4 * 100 = 40 (чётное)
 
-test('Нечетное число', () => {
-  expect(isEven(5)).toBe(false)
-})
+    const [question, correctAnswer] = getQuestionAndAnswer();
+
+    expect(question).toBe('40');
+    expect(correctAnswer).toBe('yes');
+
+    Math.random = originalMathRandom;
+  });
+
+  test('возвращает корректный ответ для нечётного числа', () => {
+    const originalMathRandom = Math.random;
+    Math.random = () => 0.37; // 0.37 * 100 = 37 (нечётное)
+
+    const [question, correctAnswer] = getQuestionAndAnswer();
+
+    expect(question).toBe('37');
+    expect(correctAnswer).toBe('no');
+
+    Math.random = originalMathRandom;
+  });
+});
+
+
