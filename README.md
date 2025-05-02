@@ -1,19 +1,3 @@
-# Brain Games
-
-**Brain Games** — консольное приложение, в котором реализован ряд математических мини-игр. Пользователь отвечает на вопросы и должен пройти 3 раунда без ошибок.
-
-## Минимальные требования
-
-- Node.js версии 20.x или выше
-- NPM
-
-## Установка
-
-```bash
-git clone https://github.com/Edmon86/frontend-project-44.git
-cd frontend-project-44
-make install
-
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Edmon86/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Edmon86/frontend-project-44/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/3586ef4e66996dc20e98/maintainability)](https://codeclimate.com/github/Edmon86/frontend-project-44/maintainability)
@@ -38,3 +22,18 @@ make install
 [Смотреть запись игры на asciinema](https://asciinema.org/a/vcH0493SNObTCVb0k2pet9NBq)
 ### Пример игры "Простое ли число?"
 [Смотреть запись игры на asciinema](https://asciinema.org/a/uJNyaOwgMzu4rz7quntZJEBTO)
+# Brain Games
+
+**Brain Games** — консольное приложение, в котором реализован ряд математических мини-игр. Пользователь отвечает на вопросы и должен пройти 3 раунда без ошибок.
+
+## Минимальные требования
+
+- Node.js версии 20.x или выше
+- NPM
+
+## Установка
+
+```bash
+git clone https://github.com/Edmon86/frontend-project-44.git
+cd frontend-project-44
+make install
