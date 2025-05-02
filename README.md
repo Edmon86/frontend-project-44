@@ -22,19 +22,21 @@
 [Смотреть запись игры на asciinema](https://asciinema.org/a/vcH0493SNObTCVb0k2pet9NBq)
 ### Пример игры "Простое ли число?"
 [Смотреть запись игры на asciinema](https://asciinema.org/a/uJNyaOwgMzu4rz7quntZJEBTO)
+
 # Brain Games
 
 **Brain Games** — консольное приложение, в котором реализован ряд математических мини-игр. Пользователь отвечает на вопросы и должен пройти 3 раунда без ошибок.
+
 ## Минимальные требования
+
 - Node.js версии 20.x или выше
 - NPM
+
 ## Установка
+
 ```bash
 git clone https://github.com/Edmon86/frontend-project-44.git
 cd frontend-project-44
 make install
-## Запуск игры
-Каждая игра запускается отдельной командой. Например, чтобы запустить игру на определение чётных чисел, выполните:
 
-brain-even
 
