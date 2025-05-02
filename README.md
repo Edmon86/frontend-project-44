@@ -12,16 +12,6 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Edmon86_frontend-project-44&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Edmon86_frontend-project-44)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Edmon86_frontend-project-44&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Edmon86_frontend-project-44)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Edmon86_frontend-project-44&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Edmon86_frontend-project-44)
-### Пример игры "Проверка на чётность"
-[Смотреть запись игры на asciinema](https://asciinema.org/a/YgC4mDM9jDuYPxgmnq4wE1E3z)
-### Пример игры "Калькулятор" 
-[Смотреть запись игры на asciinema](https://asciinema.org/a/4dUTaMA964ACeo2KwFWL61kMF)
-### Пример игры "НОД"
-[Смотреть запись игры на asciinema](https://asciinema.org/a/Tj8oRwXNyqulSLa7S6gMgmka4)
-### Пример игры "Арифметическая прогрессия"
-[Смотреть запись игры на asciinema](https://asciinema.org/a/vcH0493SNObTCVb0k2pet9NBq)
-### Пример игры "Простое ли число?"
-[Смотреть запись игры на asciinema](https://asciinema.org/a/uJNyaOwgMzu4rz7quntZJEBTO)
 # Brain Games
 
 **Brain Games** — консольное приложение, в котором реализован ряд математических мини-игр. Пользователь отвечает на вопросы и должен пройти 3 раунда без ошибок.
@@ -37,3 +27,20 @@
 git clone https://github.com/Edmon86/frontend-project-44.git
 cd frontend-project-44
 make install
+
+##Запуск игры
+
+Каждая игра запускается отдельной командой. Например, чтобы запустить игру на определение чётных чисел, выполните:
+
+brain-even
+### Пример игры "Проверка на чётность"
+[Смотреть запись игры на asciinema](https://asciinema.org/a/YgC4mDM9jDuYPxgmnq4wE1E3z)
+### Пример игры "Калькулятор" 
+[Смотреть запись игры на asciinema](https://asciinema.org/a/4dUTaMA964ACeo2KwFWL61kMF)
+### Пример игры "НОД"
+[Смотреть запись игры на asciinema](https://asciinema.org/a/Tj8oRwXNyqulSLa7S6gMgmka4)
+### Пример игры "Арифметическая прогрессия"
+[Смотреть запись игры на asciinema](https://asciinema.org/a/vcH0493SNObTCVb0k2pet9NBq)
+### Пример игры "Простое ли число?"
+[Смотреть запись игры на asciinema](https://asciinema.org/a/uJNyaOwgMzu4rz7quntZJEBTO)
+
