@@ -38,7 +38,7 @@ git clone https://github.com/Edmon86/frontend-project-44.git
 cd frontend-project-44
 make install
 
-##Запуск игры
+## Запуск игры
 
 Каждая игра запускается отдельной командой. Например, чтобы запустить игру на определение чётных чисел, выполните:
 
